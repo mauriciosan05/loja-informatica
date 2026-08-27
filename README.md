@@ -25,4 +25,4 @@ npm run dev
 ## Autores
 
 - Mauricio Almeida — [@mauriciosan05](https://github.com/mauriciosan05)
-- Heber Zanelli  — [zanelli94](https://github.com/zanelli94)
+- Heber Zanelli  — [@zanelli94](https://github.com/zanelli94)
