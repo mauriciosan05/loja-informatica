@@ -1,0 +1,31 @@
+.area {
+  margin-top: 48px;
+}
+
+.area h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--cor-destaque);
+  display: inline-block;
+}
+
+.area-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.area-produtos:empty {
+  display: block;
+}
+
+.area-produtos:empty::after {
+  content: "Nenhum produto cadastrado ainda.";
+  display: block;
+  font-size: 14px;
+  color: var(--cor-texto-suave);
+  font-style: italic;
+  padding: 8px 0 24px;
+}

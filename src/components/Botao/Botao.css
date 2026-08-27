@@ -1,0 +1,22 @@
+.botao {
+  padding: 12px 28px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: var(--cor-destaque);
+  border: none;
+  border-radius: 980px; 
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.botao:hover {
+  background-color: #0077ed;
+}
+
+.botao:active {
+  background-color: #006edb;
+  transform: scale(0.98);
+}

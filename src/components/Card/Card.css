@@ -1,0 +1,84 @@
+
+.card {
+  width: 210px;
+  background-color: var(--cor-superficie);
+  border-radius: 12px;
+  border: 1px solid var(--cor-borda);
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.card-marca-placeholder {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #8892a6;
+}
+
+.marca-hp        { background-color: #0096d6; }
+.marca-dell      { background-color: #007db8; }
+.marca-positivo  { background-color: #00a651; }
+.marca-asus      { background-color: #003876; }
+.marca-xing-ling-generico { background-color: #6b7280; }
+
+.card-nome {
+  margin: 14px 14px 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  min-height: 38px; 
+}
+
+.card-preco {
+  margin: 0 14px 10px;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--cor-texto);
+}
+
+.card-preco::before {
+  content: "R$ ";
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cor-texto-suave);
+}
+
+.card-condicao {
+  display: inline-block;
+  margin: 0 14px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.condicao-novo {
+  color: #1a7a35;
+}
+
+.condicao-usado {
+  color: #ad6b00;
+}
+
+.card-marca-placeholder.com-logo {
+  background-color: #ffffff;
+  padding: 12px;
+}
+
+.card-marca-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

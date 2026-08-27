@@ -1,0 +1,34 @@
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.campo-texto label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--cor-texto-suave);
+}
+
+.campo-texto input {
+  padding: 15px 18px;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--cor-texto);
+  background-color: var(--cor-superficie);
+  border: 1.5px solid var(--cor-borda);
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.campo-texto input:hover {
+  border-color: #b0b0bc;
+}
+
+.campo-texto input:focus {
+  border-color: var(--cor-destaque);
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.12);
+}

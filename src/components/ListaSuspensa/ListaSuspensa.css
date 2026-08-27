@@ -1,0 +1,41 @@
+.lista-suspensa {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lista-suspensa label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--cor-texto-suave);
+}
+
+.lista-suspensa select {
+  padding: 15px 44px 15px 18px;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--cor-texto);
+  background-color: var(--cor-superficie);
+  border: 1.5px solid var(--cor-borda);
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1L6 6L11 1' stroke='%236b6b80' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.lista-suspensa select:hover {
+  border-color: #b0b0bc;
+}
+
+.lista-suspensa select:focus {
+  border-color: var(--cor-destaque);
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.12);
+}
