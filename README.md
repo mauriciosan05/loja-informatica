@@ -1,6 +1,6 @@
 # Loja de Informática
 
-Site de cadastro e listagem de produtos de uma loja de informática, organizados por seção (Computadores, Acessórios, Impressoras, Games, Gadgets) e marca (HP, Dell, Positivo, Asus, Xing Ling genérico). Projeto acadêmico feito em dupla para a disciplina de Desenvolvimento Web (IFSP).
+Site de cadastro e listagem de produtos de uma loja de informática, organizados por seção (Computadores, Acessórios, Impressoras, Games, Gadgets) e marca (HP, Dell, Positivo, Asus, Xing Ling genérico). Projeto acadêmico feito em dupla para a disciplina de Programação WEB 2 (PRW2).
 
 ## Funcionalidades
 
